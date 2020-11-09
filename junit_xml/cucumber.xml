@@ -1,27 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="29.721089">
-    <testcase classname="Deals page testing" name="Free CRM Login Scenario" time="29.721089">
-        <failure message="org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //button[@class='ui linkedin button'][contains(.,'New')] (tried for 3 second(s) with 500 milliseconds interval)&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'UMAIRR-A555', ip: '192.168.1.197', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.75, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\UMAIR~1.RIZ\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:53275}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 0036d83134551129f56e52c0c9db61eb&#13;&#10;&#9;at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)&#13;&#10;&#9;at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)&#13;&#10;&#9;at stepDefinition.DealsMap.getdealstitle(DealsMap.java:78)&#13;&#10;&#9;at ✽.Then user lands on deals page(C:/Users/umair.rizwan/eclipse-workspace/Selenium_BDD/src/main/java/Feature/dealsmap.feature:15)&#13;&#10;">
-            <![CDATA[Given user is already on login page.........................................passed
-When title of login page is CRM.............................................passed
-Then user enters username and password......................................passed
-Then user clicks on login button............................................passed
-Then user clicked on deals link.............................................passed
-Then user lands on deals page...............................................failed
-Then user enter deals values................................................skipped
-
-StackTrace:
-org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //button[@class='ui linkedin button'][contains(.,'New')] (tried for 3 second(s) with 500 milliseconds interval)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'UMAIRR-A555', ip: '192.168.1.197', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.75, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\UMAIR~1.RIZ\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:53275}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 0036d83134551129f56e52c0c9db61eb
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
-	at stepDefinition.DealsMap.getdealstitle(DealsMap.java:78)
-	at ✽.Then user lands on deals page(C:/Users/umair.rizwan/eclipse-workspace/Selenium_BDD/src/main/java/Feature/dealsmap.feature:15)
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="0">
+    <testcase classname="This is for testing with tags" name="To verify login page" time="0">
+        <system-out>
+            <![CDATA[Given User is on login page.................................................skipped
 ]]>
-        </failure>
+        </system-out>
+    </testcase>
+    <testcase classname="This is for testing with tags" name="To verify task page" time="0">
+        <system-out>
+            <![CDATA[Given User is on task page..................................................skipped
+]]>
+        </system-out>
     </testcase>
 </testsuite>
